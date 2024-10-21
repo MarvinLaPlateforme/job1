@@ -1,0 +1,81 @@
+h1{
+    font-family:"Pacifico";
+    font-size: 4em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+nav a:hover{
+    color: cadetblue;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    justify-content:center;
+}
+
+.navigation{ 
+    display: flex;
+    gap: 2em;   
+}   
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+*{
+    background-image: url(./fond.img.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+input{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  form{
+    display: block;
+    justify-content: center;
+    }
+
+body{
+    margin: 3em;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    
+    
+      
+}
+
+.divform{
+    font-size: 20px;
+    flex-grow: 1;
+    border: solid black 2px;
+    margin: 15px;
+    padding-left: 20px;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+}

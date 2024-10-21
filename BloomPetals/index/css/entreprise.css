@@ -1,0 +1,102 @@
+h1{
+    font-family:"Pacifico";
+    font-size: 4em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+nav a:hover{
+    color: cadetblue;
+}
+
+.navbar{
+    
+    width: 100%;
+    display:flex;
+    background-color: transparent;
+    justify-content:center;
+}
+
+.navigation{ 
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+.button{
+     display: flex;
+    justify-content: flex-end;
+    
+}   
+
+*{
+    background-image: url(./fond.img.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h3{
+    font-family:"Pacifico";
+    font-size: 2em;
+    text-align: center;
+}
+
+img{
+  text-align: center;
+}
+
+.josephine{
+    text-align: center;
+    font-size: 20px;
+    border:solid black 5px;
+    border-radius:50px 0px ;
+    margin-top: 25px;    
+}
+
+.valerie{
+    text-align: center;
+    font-size: 20px;
+    border:solid black 5px;
+    border-radius:50px 0px ;
+    margin-top: 25px;    
+}
+
+.sofia{
+    text-align: center;
+    font-size: 20px;
+    border:solid black 5px;
+    border-radius:50px 0px ;
+    margin-top: 25px; 
+}
+
+
+.josephine_photo{
+    display: flex;
+    justify-content: center;
+}
+
+.valerie_photo{
+    display: flex;
+    justify-content: center;
+}
+
+.sofia_photo{
+    display: flex;
+    justify-content: center;
+}
+
+
+

@@ -1,0 +1,170 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.image{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 2em;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+    border-width: 75%;
+    object-fit: contain;
+    
+}
+
+.image_1
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+    border-top: solid 3px;
+    object-fit: contain;
+    margin: 13px;
+    
+}
+
+.photo_1{
+    height: 145px;
+    width: 200px;
+}
+
+
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+nav a:hover{
+    color: cadetblue;
+}
+
+header{
+    width: 100%;
+    background-color: transparent;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: solid 5px blanchedalmond;
+
+   
+}
+
+.navigation{ 
+    display: flex;
+    gap: 2em;   
+} 
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+article{
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+.services{ 
+    margin: 15px 10px 0px 0px;
+    padding: 15px 20px 20px 20px;
+    text-decoration: none;
+    gap: 2em;
+    background-color: white;   
+}
+
+.txt_services{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px 0px 0px;
+    padding: 15px 20px 20px 20px;
+    text-align:left;
+    gap: 2em;
+    font-size: 1.2em   
+}
+
+.service1,
+.service2,
+.service3{
+    border-right: solid black 1px;
+    background-color:aliceblue;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    padding: 15px 10px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+
+}
+
+h4{
+    text-decoration: underline;
+    color: red;
+    margin: 10px;
+    padding: 10px;
+}
+
+.article_1{
+    
+    padding-bottom: 15px;
+}
+
+main{
+    border: solid 3px;
+    margin: 5% ;
+    background-color:blanchedalmond ;
+
+    
+}
+
+footer{
+    background-color: #515a5a;
+    margin: 0px 0px;
+    padding: 0%;
+    display: flex;
+    width: 100%;
+}
+
+img{
+    margin: 0%;
+    padding: 0%;
+    border: solid 7px;
+    border-color: white;
+    display: flex;
+    justify-items: space-around;
+    justify-content: center;
+    
+}
+
+.search{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 0.5em;
+   
+
+
+}
+
+
+
+ 
